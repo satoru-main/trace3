@@ -158,7 +158,7 @@ function Issue(): JSX.Element {
               <Image
                 text={targetAddress}
                 options={{
-                  level: 'H',
+                  errorCorrectionLevel: 'H',
                   margin: 3,
                   scale: 10,
                   width: 70,
