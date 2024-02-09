@@ -192,9 +192,9 @@ function Record(): JSX.Element {
                     onChange={(event) => {
                       setOperation(event.target.value as string);
                     }}>
-                    <MenuItem value={'着荷'}>着荷</MenuItem>
-                    <MenuItem value={'加工'}>加工</MenuItem>
-                    <MenuItem value={'出荷'}>出荷</MenuItem>
+                    <MenuItem value={'着荷'}>体温</MenuItem>
+                    <MenuItem value={'加工'}>血圧</MenuItem>
+                    <MenuItem value={'出荷'}>気分</MenuItem>
                   </Select>
                 </FormControl>
               </Box>
