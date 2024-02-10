@@ -185,16 +185,24 @@ function Record(): JSX.Element {
               </Typography>
               <Box width='30vw' mt={1} mb={1}>
                 <FormControl fullWidth>
-                  <InputLabel>内容を選択</InputLabel>
+                  <InputLabel>今の体温を選択</InputLabel>
                   <Select
                     value={operation}
                     label='Operation'
                     onChange={(event) => {
                       setOperation(event.target.value as string);
                     }}>
-                    <MenuItem value={'36.5'}>体温</MenuItem>
-                    <MenuItem value={'加工'}>血圧</MenuItem>
-                    <MenuItem value={'出荷'}>気分</MenuItem>
+                    <MenuItem value={'35.0℃'}>35.0℃</MenuItem>
+                    <MenuItem value={'35.5℃'}>35.5℃</MenuItem>
+                    <MenuItem value={'36.0℃'}>36.0℃</MenuItem>
+                    <MenuItem value={'36.5℃'}>36.5℃</MenuItem>
+                    <MenuItem value={'37.0℃'}>37.0℃</MenuItem>
+                    <MenuItem value={'37.5℃'}>37.5℃</MenuItem>
+                    <MenuItem value={'38.0℃'}>38.0℃</MenuItem>
+                    <MenuItem value={'38.5℃'}>38.5℃</MenuItem>
+                    <MenuItem value={'39.0℃'}>39.0℃</MenuItem>
+                    <MenuItem value={'39.5℃'}>39.5℃</MenuItem>
+                    
                   </Select>
                 </FormControl>
               </Box>
